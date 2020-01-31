@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   max-width: 950px;
-  margin: 10em auto 2em auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -34,6 +34,7 @@ export const User = styled.div`
   border-radius: 4px;
   display: flex;
   text-align: center;
+  margin-top: 7em;
 
   justify-content: center;
   flex-direction: column;

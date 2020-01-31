@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   max-width: 950px;
-  margin: 10em auto 2em auto;
+  margin: 0 auto;
   display: flex;
   align-items: flex-start;
   @media (max-width: 650px) {
@@ -32,6 +32,7 @@ export const Organization = styled.div`
   border-radius: 4px;
   display: flex;
   text-align: center;
+  margin-top: 120px;
 
   justify-content: center;
   flex-direction: column;
@@ -39,7 +40,7 @@ export const Organization = styled.div`
 
   @media (max-width: 650px) {
     max-width: 100%;
-    margin: 15px 0;
+    margin: 120px 0 15px 0;
   }
   h2 {
     margin: 15px 0 10px 0;
@@ -75,6 +76,7 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 15px;
+  margin-top: 120px;
 
   input {
     background: #fff;
